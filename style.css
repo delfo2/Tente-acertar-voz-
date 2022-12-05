@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Solway:wght@300;400;700;800&display=swap');
+
+:root {
+    --font-family: 'Solway, serif';
+    --bg: #2D033B;
+    --primary-color: #C147E9;
+    --midle-color: #810CA8;
+    --soft-color: #E5B8F4;
+}
