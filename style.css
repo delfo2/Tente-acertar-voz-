@@ -42,3 +42,19 @@
     padding: 10px;
     margin: 10px;
 }
+
+.icone {
+    padding: 0 30px;
+}
+
+@media screen and (max-width: 400px) {
+    .corpo__titulo {
+        font-size: 1.5rem;
+    }
+    .corpo__dica {
+        font-size: 1rem;
+    }
+    .icone {
+        padding: 0 10px;
+    }
+}
