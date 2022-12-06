@@ -48,6 +48,9 @@
 }
 
 @media screen and (max-width: 400px) {
+    .corpo {
+        justify-content: flex-start;
+    }
     .corpo__titulo {
         font-size: 1.5rem;
     }
