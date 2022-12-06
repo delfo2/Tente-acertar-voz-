@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Klee+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@100;300;400;600;700;800&display=swap');
 :root {
-    --font-family: 'Klee One', cursive;
+    --font-family: 'Anek Devanagari', sans-serif;
     --bg: #277BC0;
     --primary-color: #FFB200;
     --secondary-color: #FFCB42;
@@ -20,6 +20,7 @@
 
 .corpo__titulo {
     font-size: 5rem;
+    font-weight: 700;
     margin: 5% 0;
 }
 
