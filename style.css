@@ -99,6 +99,19 @@
     padding: 0 30px;
 }
 
+.corpo__erro {
+    border: #ff4242 1px solid;
+    color: #ff4242;
+    font-size: 3.5rem;
+    margin: 0;
+    padding: 5%;
+}
+
+.corpo__dica-erro {
+    font-size: 2rem;
+    margin: 5px 0;
+}
+
 @media screen and (max-width: 400px) {
     .corpo {
         justify-content: flex-start;

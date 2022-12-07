@@ -61,8 +61,8 @@ function validaNumero (chute) {
                     <i class="fa-solid fa-microphone"></i>
                 </h1>
                 <h2 class="corpo__erro">Você perdeu!</h2>
-                <h3 class="corpo__dica">Suas dicas acabaram</h3>
-                <h3 class="corpo__dica">O número secreto era: ${numeroSecreto}.</h3>
+                <h3 class="corpo__dica-erro">Suas dicas acabaram</h3>
+                <h3 class="corpo__dica-erro">O número secreto era: <strong>${numeroSecreto}</strong>.</h3>
                 <button class="corpo__botao" id="btn-jogar_novamente">Jogar novamente</button>
             `;
         }
