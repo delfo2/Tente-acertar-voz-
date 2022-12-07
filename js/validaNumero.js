@@ -60,7 +60,7 @@ function validaNumero (chute) {
                         Tente Acertar o Número
                     <i class="fa-solid fa-microphone"></i>
                 </h1>
-                <h2 class="corpo__acerto">Você perdeu!</h2>
+                <h2 class="corpo__erro">Você perdeu!</h2>
                 <h3 class="corpo__dica">Suas dicas acabaram</h3>
                 <h3 class="corpo__dica">O número secreto era: ${numeroSecreto}.</h3>
                 <button class="corpo__botao" id="btn-jogar_novamente">Jogar novamente</button>
