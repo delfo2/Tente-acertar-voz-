@@ -10,10 +10,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
 </head>
-<body class="corpo">
+<body class="corpo" data-corpo>
     <h1 class="corpo__titulo">
         <i class="fa-solid fa-comment"></i>
-        Tente Acertar o número
+        Tente Acertar o Número
         <i class="fa-solid fa-microphone"></i>
     </h1>
     <h3 class="corpo__dica">
@@ -27,7 +27,20 @@
 
     <div class="corpo__caixa" data-chute="caixa">
     </div>
+
+    <div>
+        <button class="botao-mic" data-botao="pause">
+            <i class="fa-solid fa-circle-play"></i>
+            Iniciar
+        </button>
+        <h3 class="botao-mic-texto" data-botao="texto">
+            <i class="fa-solid fa-microphone-slash"></i>
+            Microfone desativado
+        </h3>
+    </div>
+
     <script src="./js/sorteiaNumero.js"></script>
     <script src="./js/reconheceVoz.js"></script>
+    <script src="./js/validaNumero.js"></script>
 </body>
 </html>
